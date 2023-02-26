@@ -1,7 +1,7 @@
 
 namespace LeetCode.Tests
 {
-    public class Template
+    public class TemplateTests
     {
         // [Test]
         // public void Case1()

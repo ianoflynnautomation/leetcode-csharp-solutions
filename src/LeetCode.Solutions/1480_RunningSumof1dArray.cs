@@ -1,4 +1,5 @@
-﻿namespace LeetCode.Solutions;
+﻿
+namespace LeetCode.Solutions;
 
 public class _1480_RunningSumof1dArray
 {
