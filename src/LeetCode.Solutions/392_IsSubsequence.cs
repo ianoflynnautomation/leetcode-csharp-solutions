@@ -20,6 +20,5 @@ namespace LeetCode.Solutions
             }
             return sIndex == s.Length;
         }
-
     }
 }

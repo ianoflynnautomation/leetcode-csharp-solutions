@@ -17,6 +17,5 @@ namespace LeetCode.Solutions
             }
             return -1;
         }
-
     }
 }
