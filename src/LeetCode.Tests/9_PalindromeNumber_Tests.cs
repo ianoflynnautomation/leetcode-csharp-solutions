@@ -8,7 +8,7 @@ namespace LeetCode.Tests
     /// Given an integer x, return true if x is a palindrome, and false otherwise.
     /// </summary>
 
-    [Companies("Amazon, Facebook, Google")]
+    [Companies("Amazon, Meta, Google")]
     [Level("Easy")]
     public class _9_PalindromeNumber_Tests
     {

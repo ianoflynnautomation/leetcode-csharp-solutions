@@ -13,7 +13,7 @@ namespace LeetCode.Tests
     /// Return k.
     /// </summary>
     
-    [Companies("Amazon, Facebook, Adobe")]
+    [Companies("Amazon, Meta, Adobe")]
     [Level("Easy")]
     public class _27_RemoveElement_Tests
     {

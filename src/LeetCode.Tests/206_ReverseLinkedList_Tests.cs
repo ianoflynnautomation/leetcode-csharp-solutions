@@ -1,6 +1,15 @@
 
 namespace LeetCode.Tests
 {
+    /// <summary>
+    /// 206. Reverse Linked List
+    /// https://leetcode.com/problems/reverse-linked-list/
+    /// 
+    /// Given the head of a singly linked list, reverse the list, and return the reversed list.
+    /// </summary>
+
+    [Companies("Amazon, Apple, Bloomberg")]
+    [Level("Easy")]
     public class _206_ReverseLinkedList_Tests
     {
         [Test]
