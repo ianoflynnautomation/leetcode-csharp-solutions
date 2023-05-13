@@ -1,6 +1,9 @@
 
 namespace LeetCode.Tests
 {
+    // [Level("Easy")]
+    // [Level("Medium")]
+    // [Level("Hard")]
     public class TemplateTests
     {
         // [Test]
@@ -18,7 +21,7 @@ namespace LeetCode.Tests
         // [Test]
         // public void Case3()
         // {
-     
+
         // }
     }
 }
