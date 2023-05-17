@@ -5,7 +5,7 @@ namespace LeetCode.Tests
     /// 12. Integer to Roman
     /// https://leetcode.com/problems/integer-to-roman/
     /// 
-    /// oman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+    /// Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
     /// Symbol       Value
     /// I             1
     /// V             5
