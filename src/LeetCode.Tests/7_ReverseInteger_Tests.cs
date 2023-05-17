@@ -9,8 +9,8 @@ namespace LeetCode.Tests
     /// Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
     /// </summary>
 
-    [Companies("Amazon, Apple, Microsoft")]
-    [Level("Medium")]
+    [Companies(Company.Amazon, Company.Apple, Company.Micrsoft)]
+    [Level(Level.Medium)]
     public class _7_ReverseInteger_Tests
     {
         [Test]

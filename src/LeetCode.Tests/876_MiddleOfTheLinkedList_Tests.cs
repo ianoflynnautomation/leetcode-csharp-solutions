@@ -9,8 +9,8 @@ namespace LeetCode.Tests
     /// If there are two middle nodes, return the second middle node.
     /// </summary>
 
-    [Companies("Amazon, Google, Adobe")]
-    [Level("Easy")]
+    [Companies(Company.Amazon, Company.Google, Company.Adobe)]
+    [Level(Level.Easy)]
     public class _876_MiddleOfTheLinkedList_Tests
     {
         [Test]

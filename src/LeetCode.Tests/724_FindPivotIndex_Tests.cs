@@ -12,9 +12,9 @@ namespace LeetCode.Tests
     /// This also applies to the right edge of the array.
     /// Return the leftmost pivot index. If no such index exists, return -1.
     /// </summary>
-    
-    [Companies("Amazon, Meta, Golman Sachs")]
-    [Level("Easy")]
+
+    [Companies(Company.Amazon, Company.Meta, Company.GoldmanSachs)]
+    [Level(Level.Easy)]
     public class _724_FindPivotIndex_Tests
     {
         [Test]

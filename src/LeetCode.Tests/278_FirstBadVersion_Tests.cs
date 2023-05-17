@@ -13,8 +13,8 @@ namespace LeetCode.Tests
     /// Implement a function to find the first bad version. You should minimize the number of calls to the API.
     /// </summary>
 
-    [Companies("Amazon, Adobe, Amazon")]
-    [Level("Easy")]
+    [Companies(Company.Amazon, Company.Adobe, Company.Micrsoft)]
+    [Level(Level.Easy)]
     public class _278_FirstBadVersion_Tests
     {
         [Test]

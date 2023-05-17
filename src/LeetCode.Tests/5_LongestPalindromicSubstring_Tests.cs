@@ -7,9 +7,9 @@ namespace LeetCode.Tests
     ///
     /// Given a string s, return the longest palindromic substring in s.
     /// </summary>
-    
-    [Companies("Amazon, Cisco, Microsoft")]
-    [Level("Medium")]
+
+    [Companies(Company.Amazon, Company.Cisco, Company.Micrsoft)]
+    [Level(Level.Medium)]
     public class _5_LongestPalindromicSubstring_Tests
     {
         [Test]

@@ -7,9 +7,9 @@ namespace LeetCode.Tests
     /// 
     /// Given a string s, find the length of the longest substring without repeating characters.
     /// </summary>
-    
-    [Companies("Amazon, Bloomberg, Apple")]
-    [Level("Medium")]
+
+    [Companies(Company.Amazon, Company.Bloomberg, Company.Apple)]
+    [Level(Level.Medium)]
     public class _3_LongestSubstringWithoutRepeatingCharacters_Tests
     {
         [Test]
@@ -55,6 +55,6 @@ namespace LeetCode.Tests
 
             result.Should().Be(0);
         }
-        
+
     }
 }

@@ -9,8 +9,8 @@ namespace LeetCode.Tests
     /// The overall run time complexity should be O(log (m+n)).
     /// </summary>
 
-    [Companies("Amazon, Bloomberg, Adobe")]
-    [Level("Hard")]
+    [Companies(Company.Amazon, Company.Bloomberg, Company.Adobe)]
+    [Level(Level.Hard)]
     public class _4_MedianOfTwoSortedArrays_Tests
     {
         [Test]

@@ -12,9 +12,9 @@ namespace LeetCode.Tests
     /// The remaining elements of nums are not important as well as the size of nums.
     /// Return k.
     /// </summary>
-    
-    [Companies("Amazon, Meta, Adobe")]
-    [Level("Easy")]
+
+    [Companies(Company.Amazon, Company.Meta, Company.Adobe)]
+    [Level(Level.Easy)]
     public class _27_RemoveElement_Tests
     {
         [Test]

@@ -7,9 +7,9 @@ namespace LeetCode.Tests
     /// 
     /// Given two binary strings a and b, return their sum as a binary string.
     /// </summary>
-    
-    [Companies("Amazon, Adobe, Bloomberg")]
-    [Level("Easy")]
+
+    [Companies(Company.Amazon, Company.Adobe, Company.Bloomberg)]
+    [Level(Level.Easy)]
     public class _67_AddBinary_Tests
     {
         [Test]

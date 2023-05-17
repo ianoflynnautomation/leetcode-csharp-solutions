@@ -10,9 +10,9 @@ namespace LeetCode.Tests
     /// Add the two numbers and return the sum as a linked list.
     /// You may assume the two numbers do not contain any leading zero, except the number 0 itself.
     /// </summary>
-    
-    [Companies("Amazon, Adobe, Microsoft")]
-    [Level("Medium")]
+
+    [Companies(Company.Amazon, Company.Adobe, Company.Micrsoft)]
+    [Level(Level.Medium)]
     public class _2_AddTwoNumbers_Tests
     {
         [Test]

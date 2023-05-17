@@ -11,8 +11,8 @@ namespace LeetCode.Tests
     /// (i.e., "ace" is a subsequence of "abcde" while "aec" is not).
     /// </summary>
 
-    [Companies("Amazon ,Google, Uber")]
-    [Level("Easy")]
+    [Companies(Company.Amazon, Company.Google, Company.Uber)]
+    [Level(Level.Easy)]
     public class _392_IsSubsequence_Tests
     {
         [Test]

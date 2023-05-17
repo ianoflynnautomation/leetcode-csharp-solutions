@@ -11,8 +11,8 @@ namespace LeetCode.Tests
     /// No two characters may map to the same character, but a character may map to itself.
     /// </summary>
 
-    [Companies("Microsoft, LinkedIn, Amazon")]
-    [Level("Easy")]
+    [Companies(Company.Micrsoft, Company.LinkedIn, Company.Amazon)]
+    [Level(Level.Easy)]
     public class _205_IsomorphicStrings_Tests
     {
         [Test]

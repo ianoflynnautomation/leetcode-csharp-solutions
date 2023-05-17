@@ -8,8 +8,8 @@ namespace LeetCode.Tests
     /// Given the root of a binary tree, return the level order traversal of its nodes' values. (i.e., from left to right, level by level).
     /// </summary>
 
-    [Companies("Amazon, Bloomberg, LinkedIn")]
-    [Level("Medium")]
+    [Companies(Company.Amazon, Company.Bloomberg, Company.LinkedIn)]
+    [Level(Level.Medium)]
     public class _102_BinaryTreeLevelOrderTraversal_Tests
     {
         [Test]

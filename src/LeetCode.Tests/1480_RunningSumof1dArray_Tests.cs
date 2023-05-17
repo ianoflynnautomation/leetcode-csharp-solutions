@@ -9,8 +9,8 @@ namespace LeetCode.Tests
     /// Return the running sum of nums.
     /// </summary>
 
-    [Companies("Amazon, Google, Adobe")]
-    [Level("Easy")]
+    [Companies(Company.Amazon, Company.Google, Company.Adobe)]
+    [Level(Level.Easy)]
     public class _1480_RunningSumof1dArray_Tests
     {
         [Test]

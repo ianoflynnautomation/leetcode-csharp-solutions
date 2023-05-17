@@ -10,9 +10,9 @@ namespace LeetCode.Tests
     /// Matches any single character.​​​​'*' Matches zero or more of the preceding element.
     /// The matching should cover the entire input string (not partial).
     /// </summary>
-    
-    [Companies("Amazon, Microsoft, Apple")]
-    [Level("Hard")]
+
+    [Companies(Company.Amazon, Company.Micrsoft, Company.Apple)]
+    [Level(Level.Hard)]
     public class _10_RegularExpressionMatching_Tests
     {
         [Test]

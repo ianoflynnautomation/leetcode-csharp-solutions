@@ -8,8 +8,8 @@ namespace LeetCode.Tests
     /// Given the head of a singly linked list, reverse the list, and return the reversed list.
     /// </summary>
 
-    [Companies("Amazon, Apple, Bloomberg")]
-    [Level("Easy")]
+    [Companies(Company.Amazon, Company.Apple, Company.Bloomberg)]
+    [Level(Level.Easy)]
     public class _206_ReverseLinkedList_Tests
     {
         [Test]

@@ -10,9 +10,9 @@ namespace LeetCode.Tests
     /// If target exists, then return its index. Otherwise, return -1.
     /// You must write an algorithm with O(log n) runtime complexity.
     /// </summary>
-    
-    [Companies("Amazon, Apple, Adobe")]
-    [Level("Easy")]
+
+    [Companies(Company.Amazon, Company.Adobe, Company.Apple)]
+    [Level(Level.Easy)]
     public class _704_BinarySearch_Tests
     {
         [Test]

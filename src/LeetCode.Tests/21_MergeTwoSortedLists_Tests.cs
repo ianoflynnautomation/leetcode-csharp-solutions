@@ -9,9 +9,9 @@ namespace LeetCode.Tests
     /// Merge the two lists in a one sorted list. The list should be made by splicing together the nodes of the first two lists.
     /// Return the head of the merged linked list.
     /// </summary>
-    
-    [Companies("Amazon, Apple, Expedia")]
-    [Level("Easy")]
+
+    [Companies(Company.Amazon, Company.Apple, Company.Expedia)]
+    [Level(Level.Easy)]
     public class _21_MergeTwoSortedLists_Tests
     {
         [Test]
@@ -55,6 +55,6 @@ namespace LeetCode.Tests
 
             result.Should().BeEquivalentTo(expectedResult);
         }
-        
+
     }
 }

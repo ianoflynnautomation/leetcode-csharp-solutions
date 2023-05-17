@@ -20,8 +20,8 @@ namespace LeetCode.Tests
     /// Do not ignore any characters other than the leading whitespace or the rest of the string after the digits.
     /// </summary>
 
-    [Companies("Amazon, Apple, Microsoft")]
-    [Level("Medium")]
+    [Companies(Company.Amazon, Company.Apple, Company.Micrsoft)]
+    [Level(Level.Medium)]
     public class _8_StringToIntegerAtoi_Tests
     {
         [Test]
