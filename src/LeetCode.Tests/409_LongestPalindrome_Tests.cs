@@ -10,7 +10,7 @@ namespace LeetCode.Tests
     /// Letters are case sensitive, for example, "Aa" is not considered a palindrome here.
     /// </summary>
 
-    [Companies(Company.Amazon, Company.Apple, Company.Micrsoft)]
+    [Companies(Company.Amazon, Company.Apple, Company.Microsoft)]
     [Level(Level.Easy)]
     public class _409_LongestPalindrome_Tests
     {

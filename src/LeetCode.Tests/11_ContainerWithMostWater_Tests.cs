@@ -11,8 +11,7 @@ namespace LeetCode.Tests
     /// Notice that you may not slant the container.
     /// </summary>
 
-
-    [Companies(Company.Amazon, Company.Micrsoft, Company.Adobe)]
+    [Companies(Company.Amazon, Company.Microsoft, Company.Adobe)]
     [Level(Level.Medium)]
     public class _11_ContainerWithMostWater_Tests
     {

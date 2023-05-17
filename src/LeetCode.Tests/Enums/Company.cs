@@ -2,7 +2,7 @@ namespace LeetCode.Tests.Enums
 {
     public enum Company
     {
-        Micrsoft,
+        Microsoft,
         Apple,
         Meta,
         Google,

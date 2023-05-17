@@ -11,7 +11,7 @@ namespace LeetCode.Tests
     /// The matching should cover the entire input string (not partial).
     /// </summary>
 
-    [Companies(Company.Amazon, Company.Micrsoft, Company.Apple)]
+    [Companies(Company.Amazon, Company.Microsoft, Company.Apple)]
     [Level(Level.Hard)]
     public class _10_RegularExpressionMatching_Tests
     {

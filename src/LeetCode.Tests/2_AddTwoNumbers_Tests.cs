@@ -11,7 +11,7 @@ namespace LeetCode.Tests
     /// You may assume the two numbers do not contain any leading zero, except the number 0 itself.
     /// </summary>
 
-    [Companies(Company.Amazon, Company.Adobe, Company.Micrsoft)]
+    [Companies(Company.Amazon, Company.Adobe, Company.Microsoft)]
     [Level(Level.Medium)]
     public class _2_AddTwoNumbers_Tests
     {
