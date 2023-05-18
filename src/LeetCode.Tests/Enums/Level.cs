@@ -5,6 +5,5 @@ namespace LeetCode.Tests.Enums
         Easy,
         Medium,
         Hard
-
     }
 }

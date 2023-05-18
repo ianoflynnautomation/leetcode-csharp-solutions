@@ -8,7 +8,7 @@ namespace LeetCode.Tests
         public CompaniesAttribute(params Company[] companies )
         {
             Companies = companies;
-        }
-        
+        }    
+           
     }
 }
