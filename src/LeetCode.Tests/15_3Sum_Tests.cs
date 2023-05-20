@@ -9,6 +9,9 @@ namespace LeetCode.Tests
     /// i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
     /// Notice that the solution set must not contain duplicate triplets.
     /// </summary>
+
+    [Companies(Company.Adobe, Company.Amazon, Company.Microsoft)]
+    [Level(Level.Medium)]
     public class _15_3Sum_Tests
     {
         [Test]
