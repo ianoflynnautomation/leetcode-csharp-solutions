@@ -34,7 +34,7 @@ public class _18_4Sum_Tests
             {
                 new List<int>() {-2,-1,1,2},
                 new List<int>() {-2,0,0,2},
-                new List<int>{-1,0,0,1}
+                new List<int>() {-1,0,0,1}
             });
 
     }
