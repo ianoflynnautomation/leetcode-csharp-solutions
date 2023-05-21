@@ -3,13 +3,13 @@ namespace LeetCode.Solutions
 {
     public class _21_MergeTwoSortedLists
     {
-        public ListNode? MergeTwoLists(ListNode? l1, ListNode? l2)
+        public ListNode? MergeTwoLists(ListNode l1, ListNode l2)
         {
             if (l1 == null) return l2;
             if (l2 == null) return l1;
 
-            ListNode? dummyHead = new ListNode(-1);
-            ListNode? current = dummyHead;
+            ListNode dummyHead = new ListNode(-1);
+            ListNode current = dummyHead;
 
             while (l1 != null && l2 != null)
             {

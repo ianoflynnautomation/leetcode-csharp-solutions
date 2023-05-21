@@ -16,7 +16,7 @@ namespace LeetCode.Solutions
  */
     public class _102_BinaryTreeLevelOrderTraversal
     {
-        public IList<IList<int>> LevelOrder(TreeNode? root)
+        public IList<IList<int>> LevelOrder(TreeNode root)
         {
 
             IList<IList<int>> result = new List<IList<int>>();
@@ -26,9 +26,9 @@ namespace LeetCode.Solutions
             return result;
         }
 
-        private void LevelOrderHelper(TreeNode? node, int level, IList<IList<int>> result)
+        private void LevelOrderHelper(TreeNode node, int level, IList<IList<int>> result)
         {
-            if (node == null)
+            if (node == default)
             {
                 return;
             }

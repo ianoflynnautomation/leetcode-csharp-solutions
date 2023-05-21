@@ -3,7 +3,7 @@ namespace LeetCode.Tests
 {
     public static class TestsHelper
     {
-         public static ListNode? GenerateListNode(int[] nums)
+         public static ListNode GenerateListNode(int[] nums)
         {
             if (nums == null || nums.Length == 0) return null; 
 
