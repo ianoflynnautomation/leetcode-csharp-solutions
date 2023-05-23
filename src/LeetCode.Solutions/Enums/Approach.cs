@@ -5,6 +5,10 @@ namespace LeetCode.Solutions.Enums
         TwoPassAlgorithm,
         OnePassAlgorithm,
         Stacks,
+        Iteration,
+        DivideAndConquer,
+        Backtracking,
+        BruteForce
 
     }
 }

@@ -7,6 +7,7 @@ namespace LeetCode.Tests.Enums
         Meta,
         Google,
         Amazon,
+        TikTok,
         Adobe,
         LinkedIn,
         Uber,

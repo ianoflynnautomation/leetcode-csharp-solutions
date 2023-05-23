@@ -1,6 +1,4 @@
 
-using LeetCode.Solutions.Attributes;
-
 namespace LeetCode.Solutions
 {
     public class _16_3SumClosest
