@@ -24,13 +24,11 @@ namespace LeetCode.Solutions
 
             if (leftCount < n)
             {
-                currentString.Append('(');
                 backtracking(answer, currentString + '(', leftCount + 1, rightCount, n);
             }
 
             if (leftCount > rightCount)
             {
-                currentString.Append(')');
                 backtracking(answer, currentString + ')', leftCount, rightCount + 1, n);
             }
         }
