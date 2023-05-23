@@ -1,8 +1,12 @@
 
+using LeetCode.Solutions.Attributes;
+
 namespace LeetCode.Solutions
 {
     public class _16_3SumClosest
     {
+        [TimeComplexity(" O(n^2)")]
+        [SpaceComplexity("O(1)")]
         public int ThreeSumClosest(int[] nums, int target)
         {
 
