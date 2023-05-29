@@ -4,9 +4,8 @@ namespace LeetCode.Solutions
     public class _22_GenerateParentheses
     {
         [Approach(Approach.Backtracking)]
-        [TimeComplexity("'O(4^n / sqrt(n))'")]
+        [TimeComplexity("O(4^n / sqrt(n))")]
         [SpaceComplexity("O(n)")]
-
         public IList<string> GenerateParenthesis(int n)
         {
             var answer = new List<string>();

@@ -1,9 +1,9 @@
 
 namespace LeetCode.Tests
 {
-    public static class TestsHelper
+    public static class NodeGenerator
     {
-         public static ListNode GenerateListNode(int[] nums)
+         public static ListNode ListNode(int[] nums)
         {
             if (nums == null || nums.Length == 0) return null; 
 
@@ -20,7 +20,7 @@ namespace LeetCode.Tests
             return first;
         }
 
-        public static TreeNode GenerateTreeNode(int?[] nums)
+        public static TreeNode TreeNode(int?[] nums)
         {
             if (nums == null || nums.Length == 0) { return null; }
 
@@ -50,7 +50,7 @@ namespace LeetCode.Tests
             return first;
         }
 
-        public static TreeLinkNode GenerateLinkTree(int?[] nums)
+        public static TreeLinkNode LinkTree(int?[] nums)
         {
             if (nums == null || nums.Length == 0) { return null; }
 

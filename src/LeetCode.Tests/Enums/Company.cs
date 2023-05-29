@@ -4,6 +4,7 @@ namespace LeetCode.Tests.Enums
     {
         Microsoft,
         Apple,
+        Tesla,
         Meta,
         Google,
         Amazon,

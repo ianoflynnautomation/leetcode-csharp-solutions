@@ -8,7 +8,8 @@ namespace LeetCode.Solutions.Enums
         Iteration,
         DivideAndConquer,
         Backtracking,
-        BruteForce
+        BruteForce,
+        PriorityQueue
 
     }
 }

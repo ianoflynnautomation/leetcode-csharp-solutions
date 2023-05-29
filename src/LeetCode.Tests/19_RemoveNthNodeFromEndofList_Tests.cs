@@ -15,13 +15,13 @@ namespace LeetCode.Tests
         [Test]
         public void Case1()
         {
-            var head = TestsHelper.GenerateListNode(new int[] { 1, 2, 3, 4, 5 });
+            var head = NodeGenerator.ListNode(new int[] { 1, 2, 3, 4, 5 });
             var n = 2;
 
             var solution = new _19_RemoveNthNodeFromEndofList();
             var result = solution.RemoveNthFromEnd(head, n);
 
-            var expectedResult = TestsHelper.GenerateListNode(new int[] { 1, 2, 3, 5 });
+            var expectedResult = NodeGenerator.ListNode(new int[] { 1, 2, 3, 5 });
 
             result.Should().BeEquivalentTo(expectedResult);
         }
@@ -29,13 +29,13 @@ namespace LeetCode.Tests
         [Test]
         public void Case2()
         {
-            var head = TestsHelper.GenerateListNode(new int[] { 1 });
+            var head = NodeGenerator.ListNode(new int[] { 1 });
             var n = 1;
 
             var solution = new _19_RemoveNthNodeFromEndofList();
             var result = solution.RemoveNthFromEnd(head, n);
 
-            var expectedResult = TestsHelper.GenerateListNode(new int[] { });
+            var expectedResult = NodeGenerator.ListNode(new int[] { });
 
             result.Should().BeEquivalentTo(expectedResult);
         }
@@ -43,13 +43,13 @@ namespace LeetCode.Tests
         [Test]
         public void Case3()
         {
-            var head = TestsHelper.GenerateListNode(new int[] { 1, 2 });
+            var head = NodeGenerator.ListNode(new int[] { 1, 2 });
             var n = 1;
 
             var solution = new _19_RemoveNthNodeFromEndofList();
             var result = solution.RemoveNthFromEnd(head, n);
 
-            var expectedResult = TestsHelper.GenerateListNode(new int[] { 1 });
+            var expectedResult = NodeGenerator.ListNode(new int[] { 1 });
 
             result.Should().BeEquivalentTo(expectedResult);
         }

@@ -15,7 +15,7 @@ public class _102_BinaryTreeLevelOrderTraversal_Tests
     [Test]
     public void Case1()
     {
-        var root = TestsHelper.GenerateTreeNode(new int?[] { 3, 9, 20, null, null, 15, 7 });
+        var root = NodeGenerator.TreeNode(new int?[] { 3, 9, 20, null, null, 15, 7 });
 
         var solution = new _102_BinaryTreeLevelOrderTraversal();
         var result = solution.LevelOrder(root);
@@ -33,7 +33,7 @@ public class _102_BinaryTreeLevelOrderTraversal_Tests
     [Test]
     public void Case2()
     {
-        var root = TestsHelper.GenerateTreeNode(new int?[] { 1 });
+        var root = NodeGenerator.TreeNode(new int?[] { 1 });
 
         var solution = new _102_BinaryTreeLevelOrderTraversal();
         var result = solution.LevelOrder(root);
@@ -49,7 +49,7 @@ public class _102_BinaryTreeLevelOrderTraversal_Tests
     [Test]
     public void Case3()
     {
-        var root = TestsHelper.GenerateTreeNode(new int?[] { });
+        var root = NodeGenerator.TreeNode(new int?[] { });
 
         var solution = new _102_BinaryTreeLevelOrderTraversal();
         var result = solution.LevelOrder(root);
