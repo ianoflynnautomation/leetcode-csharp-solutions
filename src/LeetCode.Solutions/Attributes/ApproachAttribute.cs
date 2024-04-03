@@ -1,8 +1,6 @@
 
-using LeetCode.Solutions.Enums;
+namespace LeetCode.Solutions.Attributes;
 
-namespace LeetCode.Solutions.Attributes
-{
     [System.AttributeUsage(System.AttributeTargets.Method)]
     public class ApproachAttribute : System.Attribute
     {
@@ -12,4 +10,3 @@ namespace LeetCode.Solutions.Attributes
             Approach = spaceComplexity;
         }
     }
-}

@@ -1,15 +1,6 @@
 
 namespace LeetCode.Tests;
 
-/// <summary>
-/// 67. Add Binary
-/// https://leetcode.com/problems/add-binary/
-/// 
-/// Given two binary strings a and b, return their sum as a binary string.
-/// </summary>
-
-[Companies(Company.Amazon, Company.Adobe, Company.Bloomberg)]
-[Level(Level.Easy)]
 public class _67_AddBinary_Tests
 {
     [Test]

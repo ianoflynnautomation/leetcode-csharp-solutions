@@ -1,15 +1,6 @@
 
 namespace LeetCode.Tests;
 
-/// <summary>
-/// 9. Palindrome Number
-/// https://leetcode.com/problems/palindrome-number/
-/// 
-/// Given an integer x, return true if x is a palindrome, and false otherwise.
-/// </summary>
-
-[Companies(Company.Amazon, Company.Meta, Company.Google)]
-[Level(Level.Easy)]
 public class _9_PalindromeNumber_Tests
 {
     [Test]

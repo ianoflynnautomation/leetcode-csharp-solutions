@@ -1,6 +1,9 @@
 
-namespace LeetCode.Solutions
+namespace LeetCode.Solutions;
+
+public class _589_NaryTreePreorderTraversal
 {
+
     /*
     // Definition for a Node.
     public class Node {
@@ -19,30 +22,28 @@ namespace LeetCode.Solutions
         }
     }
     */
-    public class _589_NaryTreePreorderTraversal
+
+    public IList<int> Preorder(Node root)
     {
-        public IList<int> Preorder(Node root)
-        {
 
-            IList<int> result = new List<int>();
+        IList<int> result = new List<int>();
 
-            PreorderHelper(root, result);
+        PreorderHelper(root, result);
 
-            return result;
-        }
-
-        private void PreorderHelper(Node node, IList<int> list)
-        {
-            if (node == null)
-            {
-                return;
-            }
-            list.Add(node.val);
-            foreach (Node child in node.children)
-            {
-                PreorderHelper(child, list);
-            }
-        }
-
+        return result;
     }
+
+    private void PreorderHelper(Node node, IList<int> list)
+    {
+        if (node == null)
+        {
+            return;
+        }
+        list.Add(node.val);
+        foreach (Node child in node.children)
+        {
+            PreorderHelper(child, list);
+        }
+    }
+
 }

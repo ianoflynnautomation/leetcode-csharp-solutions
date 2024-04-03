@@ -1,6 +1,6 @@
 
-namespace LeetCode.Tests
-{
+namespace LeetCode.Solutions.Attributes;
+
     [System.AttributeUsage(System.AttributeTargets.Class)]
     public class CompaniesAttribute : System.Attribute
     {
@@ -11,4 +11,3 @@ namespace LeetCode.Tests
         }    
            
     }
-}

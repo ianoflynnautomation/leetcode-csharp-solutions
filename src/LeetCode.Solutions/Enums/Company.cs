@@ -1,4 +1,4 @@
-namespace LeetCode.Tests.Enums
+namespace LeetCode.Solutions.Enums
 {
     public enum Company
     {

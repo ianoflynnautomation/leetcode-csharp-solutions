@@ -1,15 +1,6 @@
 
 namespace LeetCode.Tests;
 
-/// <summary>
-/// 5. Longest Palindromic Substring
-/// https://leetcode.com/problems/longest-palindromic-substring/
-///
-/// Given a string s, return the longest palindromic substring in s.
-/// </summary>
-
-[Companies(Company.Amazon, Company.Cisco, Company.Microsoft)]
-[Level(Level.Medium)]
 public class _5_LongestPalindromicSubstring_Tests
 {
     [Test]

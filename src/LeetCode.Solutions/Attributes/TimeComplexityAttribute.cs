@@ -1,6 +1,6 @@
 
-namespace LeetCode.Solutions.Attributes
-{
+namespace LeetCode.Solutions.Attributes;
+
     [System.AttributeUsage(System.AttributeTargets.Method)]
     public class TimeComplexityAttribute : System.Attribute
     {
@@ -10,4 +10,3 @@ namespace LeetCode.Solutions.Attributes
             TimeComplexity = timeComplexity;
         }
     }
-}
