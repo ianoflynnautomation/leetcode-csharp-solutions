@@ -18,7 +18,6 @@ public class _15_3Sum
     [SpaceComplexity("O(1)")]
     public IList<IList<int>> ThreeSum(int[] nums)
     {
-
         var result = new List<IList<int>>();
 
         if (nums == null || nums.Length < 3) return result;
@@ -49,8 +48,13 @@ public class _15_3Sum
                     left++;
                     right--;
                 }
-                else if (sum < 0) { left++; }
-                else { right--; }
+                else if (sum < 0)
+                { 
+                    left++; 
+                }
+                else { 
+                    right--; 
+                    }
             }
         }
 
