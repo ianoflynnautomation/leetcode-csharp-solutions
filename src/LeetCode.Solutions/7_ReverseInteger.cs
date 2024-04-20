@@ -17,6 +17,7 @@ public class _7_ReverseInteger
     public int Reverse(int x)
     {
         int result = 0;
+        
         while (x != 0)
         {
             int pop = x % 10;

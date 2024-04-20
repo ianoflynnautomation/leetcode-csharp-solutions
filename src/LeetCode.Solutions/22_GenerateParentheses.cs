@@ -25,12 +25,18 @@ public class _22_GenerateParentheses
         return answer;
     }
 
-    private void backtracking(List<string> answer, string currentString,
-    int leftCount, int rightCount, int n)
+    private void backtracking(
+        List<string> answer,
+        string currentString,
+        int leftCount,
+        int rightCount,
+        int n)
     {
         if (currentString.Length == 2 * n)
         {
-            answer.Add(currentString); return;
+            answer.Add(currentString); 
+            
+            return;
         }
 
         if (leftCount < n)
