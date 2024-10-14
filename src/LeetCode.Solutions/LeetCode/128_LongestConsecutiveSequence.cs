@@ -20,6 +20,8 @@ public class _128_LongestConsecutiveSequence
 
         foreach (var num in set)
         {
+            // Check if the current number is the start of a sequence. 
+            // If it is, then we can iterate through the sequence to find the length of the sequence.
             if (!set.Contains(num - 1))
             {
                 var currentNum = num;

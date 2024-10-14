@@ -14,12 +14,12 @@ public class _206_ReverseLinkedList
 {
     public ListNode ReverseList(ListNode head)
     {
-        if (head == null || head.next == null) return head;
+        if(head is null || head.next is null) return head;
 
         ListNode current = head;
         ListNode reversed = default;
 
-        while (current != null)
+        while (current is not null)
         {
             ListNode next = current.next;
             current.next = reversed;

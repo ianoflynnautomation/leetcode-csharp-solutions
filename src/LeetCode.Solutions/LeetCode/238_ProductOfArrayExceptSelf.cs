@@ -13,7 +13,6 @@ public class _238_ProductOfArrayExceptSelf
     [SpaceComplexity("O(1)")]
     public int[] ProductExceptSelf(int[] nums)
     {
-
         int n = nums.Length;
         var result = new int[n];
 

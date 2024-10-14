@@ -28,7 +28,11 @@ public class _217_ContainsDuplicate
 
         for (var i = 0; i < nums.Length; i++)
         {
-            if (uniqueNumbers.Contains(nums[i])) return true;
+            if (uniqueNumbers.Contains(nums[i]))
+            {
+                return true;
+            }     
+                
             uniqueNumbers.Add(nums[i]);
         }
 

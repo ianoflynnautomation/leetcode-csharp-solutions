@@ -1,23 +1,41 @@
 
-namespace LeetCode.Solutions;
+namespace LeetCode.Solutions.NeetCode150.ArraysAndHashing;
 
 /// <summary>
-/// 1. Two Sum
-/// https://leetcode.com/problems/two-sum/
-/// 
-/// Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
-/// You may assume that each input would have exactly one solution, and you may not use the same element twice.
-/// You can return the answer in any order.
+///Two Integer Sum
+///Given an array of integers nums and an integer target, return the indices i and j such that nums[i] + nums[j] == target and i != j.
+///You may assume that every input has exactly one pair of indices i and j that satisfy the condition.
+///Return the answer with the smaller index first.
+
+///Example 1:
+///Input: 
+///nums = [3,4,5,6], target = 7
+///Output: [0,1]
+///Explanation: nums[0] + nums[1] == 7, so we return [0, 1].
+
+///Example 2:
+///Input: nums = [4,5,6], target = 10
+///Output: [0,2]
+
+///Example 3:
+///Input: nums = [5,5], target = 10
+///Output: [0,1]
+///Constraints:
+
+///2 <= nums.length <= 1000
+///-10,000,000 <= nums[i] <= 10,000,000
+///-10,000,000 <= target <= 10,000,000
 /// </summary>
 
 [Companies(Company.Amazon, Company.Adobe, Company.Apple)]
 [Level(Level.Easy)]
-public class _1_TwoSum
+public class TwoIntegerSumSolution
 {
     [TimeComplexity("O(n)")]
     [SpaceComplexity("O(n)")]
     public int[] TwoSum(int[] nums, int target)
     {
+        // <val, index>
         var dictionary = new Dictionary<int, int>();
 
         for (int i = 0; i < nums.Length; i++)
@@ -25,7 +43,7 @@ public class _1_TwoSum
             int result = target - nums[i];
 
             if (dictionary.ContainsKey(result))
-                return new int[] { dictionary[result], i };
+                return [dictionary[result], i];
             else
                 dictionary[nums[i]] = i;
         }
@@ -49,7 +67,7 @@ public class _1_TwoSum
             int sum = nums[left] + nums[right];
             if (sum == target)
             {
-                return new int[] { left, right };
+                return [left, right];
             }
             else if (sum < target)
             {
