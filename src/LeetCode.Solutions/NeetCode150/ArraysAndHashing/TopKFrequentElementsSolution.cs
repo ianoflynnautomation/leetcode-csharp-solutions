@@ -1,8 +1,6 @@
-namespace LeetCode.Solutions;
+namespace LeetCode.Solutions.NeetCode150.ArraysAndHashing;
 
 /// <summary>
-/// 347. Top K Frequent Elements
-/// https://leetcode.com/problems/top-k-frequent-elements/
 /// Given an integer array nums and an integer k, return the k most frequent elements. 
 /// You may return the answer in any order.
 
@@ -24,17 +22,24 @@ namespace LeetCode.Solutions;
 /// </summary>
 
 [Level(Level.Medium)]
-public class _347_TopKFrequentElements
+public class TopKFrequentElementsSolution
 {
     [TimeComplexity("O(n log k)")]
     [SpaceComplexity("O(n)")]
     public int[] TopKFrequent(int[] nums, int k)
     {
         var count = new Dictionary<int, int>();
+        
         foreach (int num in nums)
         {
-            if (count.ContainsKey(num)) count[num]++;
-            else count[num] = 1;
+            if (count.ContainsKey(num))
+            {
+                count[num]++;
+            }
+            else
+            {
+                count[num] = 1;
+            }
         }
 
         List<int[]> arr = count.Select(entry => new int[] { entry.Value, entry.Key }).ToList();
@@ -46,35 +51,6 @@ public class _347_TopKFrequentElements
             res[i] = arr[i][1];
         }
         return res;
-
     }
 
-    public int[] TopKFrequentLinq(int[] nums, int k)
-    {
-        int[] result = new int[k];
-
-        var dictionary = new Dictionary<int, int>();
-
-        // Count the frequency of each element
-        foreach (int num in nums)
-        {
-            if (!dictionary.ContainsKey(num))
-            {
-                dictionary[num] = 0;
-            }
-            dictionary[num]++;
-        }
-
-        // Order the dictionary by value and take the top k elements
-        var ordered = dictionary.OrderByDescending(x => x.Value).Take(k).ToList();
-
-        for (int i = 0; i < ordered.Count(); i++)
-        {
-            result[i] = ordered[i].Key;
-        }
-
-        return result;
-
-
-    }
 }
