@@ -18,15 +18,18 @@ public class _11_ContainerWithMostWater
 {
     public int MaxArea(int[] height)
     {
-
+        
+        int result = 0;
         int left = 0;
         int right = height.Length - 1;
-        int result = 0;
 
         while (left < right)
         {
             int width = right - left;
-            result = Math.Max(result, Math.Min(height[left], height[right]) * width);
+            int area =  Math.Min(height[left], height[right]) * width;
+
+            result = Math.Max(result, area);
+
             if (height[left] <= height[right])
             {
                 left++;

@@ -25,7 +25,7 @@ public class _167_TwoSumIIInputArrayIsSorted
 
             if (sum == target)
             {
-                return new int[] { left + 1, right + 1 };
+                return [left + 1, right + 1];
             }
             else if (sum < target)
             {

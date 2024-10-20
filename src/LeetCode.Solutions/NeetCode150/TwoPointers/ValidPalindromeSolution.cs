@@ -1,4 +1,4 @@
-namespace LeetCode.Solutions;
+namespace LeetCode.Solutions.NeetCode150.TwoPointers;
 
 /// <summary>
 /// Is Palindrome

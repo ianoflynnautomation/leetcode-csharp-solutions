@@ -1,4 +1,6 @@
-namespace LeetCode.Tests;
+using LeetCode.Solutions.NeetCode150.TwoPointers;
+
+namespace LeetCode.Tests.NeetCode150.TwoPointers;
 
 public class ValidPalindromeTests
 {
