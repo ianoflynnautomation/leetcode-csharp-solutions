@@ -354,3 +354,6 @@ Footer navigation
 Terms
 Privacy
 Security
+
+*.DS_Store
+
